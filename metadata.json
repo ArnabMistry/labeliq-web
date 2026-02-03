@@ -1,0 +1,7 @@
+{
+  "name": "LabelIQ",
+  "description": "A risk-aware ingredient interpreter for health-conscious individuals, athletes, and professionals. Scan food labels for instant, personalized safety verdicts.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
