@@ -59,14 +59,22 @@ The final decision will be made based on scalability, performance, camera access
 ## 🛠️ Engineering & Tech Philosophy
 
 LABELIQ is being built with **industry-standard engineering practices**, focusing on:
-- Clean architecture and separation of concerns  
-- Scalable and maintainable system design  
-- Performance optimization and reliability  
-- Secure data handling and future-proof security layers  
-- High code quality and collaboration readiness  
-- Building in public with transparency and iteration  
+- Clean architecture and separation of concerns
+- Scalable and maintainable system design
+- Performance optimization and reliability
+- **Security-first approach**: Rate limiting, input validation, secure API key handling
+- High code quality and collaboration readiness
+- Building in public with transparency and iteration
 
 The project prioritizes **long-term sustainability over short-term hacks**.
+
+## 🔒 Security Features
+
+- **Rate Limiting**: 100 requests per 15 minutes per IP to prevent abuse
+- **Input Validation**: Schema-based validation using Joi for all user inputs
+- **Secure API Handling**: Gemini API key stored server-side only, never exposed to client
+- **CORS Protection**: Configured to allow only frontend origin
+- **Error Handling**: Graceful 429 responses for rate limits, detailed validation errors
 
 ---
 

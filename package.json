@@ -18,5 +18,18 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "**LABELIQ** is a consumer-focused food transparency platform designed to help people make informed decisions about what they eat. It decodes complex ingredient labels and translates them into clear, actionable health insights.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnabMistry/labeliq-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnabMistry/labeliq-web/issues"
+  },
+  "homepage": "https://github.com/ArnabMistry/labeliq-web#readme"
 }
